@@ -19,7 +19,8 @@ class TempGen extends Component {
     constructor() {
         super();
         this.state = {
-            ...initialState
+            ...initialState, 
+            count: 0,
         };
     }
 
@@ -240,6 +241,7 @@ class TempGen extends Component {
                             <button onClick={this.saveMeme} className="btn btn-primary">Download Meme :D</button>
                             <button onClick={this.resetBoxes} className="btn btn-primary">Reset</button>
                             <button onClick={() => this.props.toggleSelected()} className="btn btn-primary">Back to Gallery</button>
+                            <button onClick={this.increment}  className="btn btn-primary">Like {this.state.count} </button>
                         </div>
                     </div>
                 </div >

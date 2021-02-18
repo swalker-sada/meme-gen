@@ -16,6 +16,7 @@ body {
     padding: 90px;
     box-shadow: 4px 0px 0px 0px rgb(73, 137, 198);
     width: 80%;
+    
 }
 
 .form-control {
@@ -80,6 +81,7 @@ body {
     -moz-box-shadow: 3px 3px 4px rgba(50, 50, 50, 0.75);
     box-shadow: 3px 3px 4px rgba(50, 50, 50, 0.75);
     border-radius: 5%;
+    
 }
 
 .btn-gallery {
