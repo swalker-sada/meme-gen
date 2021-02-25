@@ -14,7 +14,7 @@ export default class Gallery extends Component {
         <div className="h1">
           MEME GENERATOR 
            </div>
-           <img className="icon" src={logo} alt="Logo" style={{position: 'absolute', top: 10, right: 15, width: '7%', height: 100}}/>
+           <img className="icon" src={logo} alt="Logo" style={{position: 'absolute', top: 10, right: 15, width: '7%', height: 80}}/>
 
        
 
