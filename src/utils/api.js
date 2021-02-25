@@ -1,9 +1,10 @@
 import utils from './utils';
+import getOrCreateAuthToken from './getOrCreateAuthToken';
 
 export const getMemes = async (sessionId) => {
 
   const fetch = require('cross-fetch');
-  const getOrCreateAuthToken = require('./getOrCreateAuthToken');
+  //const getOrCreateAuthToken = require('./getOrCreateAuthToken');
   const ENDPOINT = `https://${process.env.REACT_APP_ASTRA_DB_ID}-${process.env.REACT_APP_ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1`;
   const REACT_APP_ASTRA_DB_KEYSPACE = process.env.REACT_APP_ASTRA_DB_KEYSPACE;
   const TABLE_NAME = 'memegen';

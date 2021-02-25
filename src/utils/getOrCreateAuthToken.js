@@ -11,7 +11,7 @@ const REACT_APP_ASTRA_DB_PASSWORD = process.env.REACT_APP_ASTRA_DB_PASSWORD;
  */
 let cachedToken;
 
-module.exports = async function getOrCreateAuthToken() {
+export default async function getOrCreateAuthToken() {
   if (cachedToken) {
     return cachedToken;
   }
