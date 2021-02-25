@@ -55,4 +55,8 @@
     cursor: pointer;
   }
   
+  .icon{
+      background-color: #31434e;
+      border-radius: 1em;
+  }
   
