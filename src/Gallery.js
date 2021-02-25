@@ -1,14 +1,7 @@
 import React, { Component } from "react";
 import Image from "./Image";
 import "./ImageList.css"
-<<<<<<< Updated upstream
-import logo from './images/canada.png';
-=======
-import logo from './images/usa.jpg'
-
-
->>>>>>> Stashed changes
-
+import logo from './images/gcp.png'
 
 export default class Gallery extends Component {
   render() {
