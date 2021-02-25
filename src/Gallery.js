@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import Image from "./Image";
 import "./ImageList.css"
+<<<<<<< HEAD
 
 import logo from './images/usa.jpg'
 
 
+=======
+import logo from './images/usa.jpg';
+>>>>>>> 5ff10f0da0e3e644e4a1440eb5267e8ca281d620
 
 
 export default class Gallery extends Component {
