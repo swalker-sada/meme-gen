@@ -1,11 +1,7 @@
 import React, { Component } from "react";
 import Image from "./Image";
 import "./ImageList.css"
-
-  let logo;
-    import(`./images/${process.env.REACT_APP_LOGO}`).then((module) => {
-      logo = module.default;
-  });
+import logo from './images/usa.jpg'
 
 export default class Gallery extends Component {
   render() {
